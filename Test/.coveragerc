@@ -1,0 +1,19 @@
+[run]
+source = .
+omit =
+    tests/*
+    seed_*.py
+    setup_ai_chat.py
+    update_*.py
+    agents/nodes/*
+    agents/graph.py
+    agents/state.py
+    agents/__init__.py
+    config.py
+    routes/tree_hole.py
+    routes/admin.py
+    routes/agent_report.py
+
+[report]
+show_missing = True
+skip_covered = False
